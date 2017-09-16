@@ -1,0 +1,26 @@
+package model;
+import java.util.*;
+import java.io.*;
+class mainpsvm
+{
+  public static void main(String args[])
+  {
+	    System.out.println("welcome to locanda\n");
+      Adjustment adj= new Adjustment();
+      Booker bkr = new Booker();
+      Booking bkng = new Booking();
+      Downloader dlr = new Downloader();
+      Extra e= new Extra();
+      ExtraItem ei= new ExtraItem();
+      Facility fcl= new Facility();
+      File fl= new file();
+      GroupLeader gl= new GroupLeader();
+      Guest g=new Guest();
+      Housed hs = new Housed();
+      Payments p=new Payments();
+      Structure str=new Structure();
+      User u=new User();
+      UserAware ua=new UserAware();
+  }
+}
+    
